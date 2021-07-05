@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta char t="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="cards-style.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat&family=Poppins&display=swap"
+        rel="stylesheet" />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+<body>
+    <!--Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="posters.html">Posters</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="cards.html">Cards</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="personal.html">Personal</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Posters -->
+    <div id="posters" class="container mt-3 pb-3" data-aos="fade-down" data-aos-anchor-placement="top-center">
+        <div class="post-heading text-center">
+            <h3 class="display-4 font-weight-bold">My Projects</h3>
+            <hr class="w-50 mx-auto pb-3">
+            <h2 class="display-4 pb-5">Cards</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-12 pb-5">
+                <div class="card">
+                    <div id="gcCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#gcCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#gcCarousel" data-slide-to="1"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="card-img-top" src="/Portfolio/images/un-card.jpg">
+                                <div class="card-body">
+                                    <h5 class="card-title">Guest Card (Front)</h5>
+                                    <p class="card-text">This card was given to newcomers to introduce and welcome them
+                                        into the church.</p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <img class="card-img-top" src="/Portfolio/images/un-card-b.jpg">
+                                <div class="card-body">
+                                    <h5 class="card-title">Guest Card (Back)</h5>
+                                    <p class="card-text">The back comprises of a welcome message, socials and contacts.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#gcCarousel" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#gcCarousel" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-12 pb-5">
+                <div class="card">
+                    <div id="ccCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#ccCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#ccCarousel" data-slide-to="1"></li>
+                            <li data-target="#ccCarousel" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper -->
+                        <div class="carousel-inner">
+
+                            <!-- Slide 1 -->
+                            <div class="carousel-item active">
+                                <img class="card-img-top" src="/Portfolio/images/icf-card.jpg">
+                                <div class="card-body">
+                                    <h5 class="card-title">Club Card</h5>
+                                    <p class="card-text">This card was meant to shpw the theme of the club and was given
+                                        to anyone who wanted.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Slide 2 -->
+                            <div class="carousel-item">
+                                <img class="card-img-top" src="/Portfolio/images/icf-card-b.jpg">
+                                <div class="card-body">
+                                    <h5 class="card-title">Club Poster</h5>
+                                    <p class="card-text">The back shows future events, socials and contacts.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#ccCarousel" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#ccCarousel" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="post-heading text-center">
+            <hr class="w-50 mx-auto pb-3">
+            <h2 class="display-4 pb-5">Postcard</h2>
+        </div>
+        <div class="row">
+            <div class=" col-lg-6 col-md-6 col-12 pb-5">
+                <div class="card">
+                    <img class="card-img-top" src="/Portfolio/images/postcard.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">Postcard</h5>
+                        <p class="card-text">
+                            This postcard was themed to depict the life of a student in his alma mater.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-5 pb-4">
+    <div class="container">
+        <hr class="w-100 mx-auto">
+        <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item">
+                <a class="btn-floating btn-gplus mx-1" href="https://wa.me/+601139382207?text=I'm%20interested!">
+                    <i class="fa fa-whatsapp social-icon" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="btn-floating btn-li mx-1" href="https://www.linkedin.com/in/joelbalang/">
+                    <i class="fab fa-linkedin-in social-icon" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="footer-copyright text-center">© 2020 Copyright | Joel Balang
+    </div>
+</footer>
+
+</html>
+
+<script src="test.js"></script>
