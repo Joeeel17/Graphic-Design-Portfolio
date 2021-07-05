@@ -152,7 +152,6 @@ body {
     transition: filter 0.6s ease-in-out;
 }
 
-/*------------- About -------------*/
 /*------------- Posters -------------*/
 
 #posters .btn {
@@ -160,7 +159,7 @@ body {
     background: #000;
 }
 
-#posters .btn a {
+#posters a {
     color: #fff;
     text-decoration: none;
     font-size: 1em;
@@ -180,7 +179,7 @@ body {
     background: #000;
 }
 
-#cards .btn a {
+#cards a {
     color: #fff;
     text-decoration: none;
     font-size: 1em;
@@ -200,7 +199,7 @@ body {
     background: #000;
 }
 
-#misc .btn a {
+#misc a {
     color: #fff;
     text-decoration: none;
     font-size: 1em;
