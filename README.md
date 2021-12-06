@@ -1,5 +1,5 @@
 # Portfolio
-Attempted to hard code self online portfolio from scratch with appealing hover-effects and animations.
+hard code self online portfolio from scratch with appealing hover-effects and animations with personal graphic design projects.
 
 # Interface
 ![header](/interface/header.JPG)
